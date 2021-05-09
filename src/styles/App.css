@@ -33,7 +33,7 @@
 }
 
 .card.hovercard .cardheader {
-  background: url("profile_pic.jpg");
+  background: url("https://github.com/arnab031/yay-react/blob/master/src/styles/profile_pic.jpg");
   background-size: cover;
   height: 135px;
 }
