@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/yay-react/static/css/main.1eabdd71.chunk.css",
+    "main.css": "/yay-react/static/css/main.7960eeed.chunk.css",
     "main.js": "/yay-react/static/js/main.57a50232.chunk.js",
     "main.js.map": "/yay-react/static/js/main.57a50232.chunk.js.map",
     "runtime-main.js": "/yay-react/static/js/runtime-main.6491f8ae.js",
@@ -8,13 +8,14 @@
     "static/js/2.57cf6e99.chunk.js": "/yay-react/static/js/2.57cf6e99.chunk.js",
     "static/js/2.57cf6e99.chunk.js.map": "/yay-react/static/js/2.57cf6e99.chunk.js.map",
     "index.html": "/yay-react/index.html",
-    "static/css/main.1eabdd71.chunk.css.map": "/yay-react/static/css/main.1eabdd71.chunk.css.map",
-    "static/js/2.57cf6e99.chunk.js.LICENSE.txt": "/yay-react/static/js/2.57cf6e99.chunk.js.LICENSE.txt"
+    "static/css/main.7960eeed.chunk.css.map": "/yay-react/static/css/main.7960eeed.chunk.css.map",
+    "static/js/2.57cf6e99.chunk.js.LICENSE.txt": "/yay-react/static/js/2.57cf6e99.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/yay-react/static/media/profile_pic.4dca6388.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6491f8ae.js",
     "static/js/2.57cf6e99.chunk.js",
-    "static/css/main.1eabdd71.chunk.css",
+    "static/css/main.7960eeed.chunk.css",
     "static/js/main.57a50232.chunk.js"
   ]
 }
