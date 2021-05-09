@@ -9,29 +9,45 @@ function IndiPersonComp(props) {
         //     <h1>{ props.name }</h1>
         //     <p className="para" id="para">{ props.email }</p>
         // </div>
-        <div className='myForm'>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-sm-6">
+        
+        // <div class="container">
+        //     <div class="row">
+        //         <div class="col-lg-6 col-sm-6">
+        //             <div class="card hovercard">
+        //                 <div class="cardheader"></div>
+        //                 <div class="avatar">
+        //                     <img alt="profile image" src={ props.image }/>
+        //                 </div>
+        //                 <div class="info">
+        //                     <div class="title">
+        //                         <h1>{ props.name }</h1>
+        //                     </div>
+        //                     <div class="para">{ props.email }</div>
+        //                 </div>
+        //             </div>
+        //         </div>
+        //     </div>
+        // </div>
     
-                    <div class="card hovercard">
-                        <div class="cardheader"></div>
-                        <div class="avatar">
-                            <img alt="profile image" src={ props.image }/>
-                        </div>
-                        <div class="info">
-                            <div class="title">
-                                <h1>{ props.name }</h1>
-                            </div>
-                            <div class="para">{ props.email }</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 //////////////////////////////////////////////////////////////////////////////////////////////
 
+    <div key={props.id}>
+        <div class="card hovercard">
+            <div class="cardheader"></div>
+                <div class="avatar">
+                    <img key={props.image} src={props.image} />
+                </div>
+                <div class="info">
+                    <div class="title">
+                        <h2>{ props.name }</h2>
+                    </div>
+                    <div class="para">{ props.email }</div>
+                </div>
+        </div>
+</div>
+    
+   
+    
     )
 }
 
